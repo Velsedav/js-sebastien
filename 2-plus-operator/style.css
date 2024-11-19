@@ -1,0 +1,25 @@
+#render {
+  margin-top: 50px;
+  border: solid;
+  width: fit-content;
+  padding: 20px;
+  text-align: center;
+}
+
+.display-when-done,
+.display-step2 {
+  display: none;
+}
+
+#operation {
+  display: flex;
+  justify-content: space-between;
+  span {
+    &:first-child {
+      padding-right: 10px;
+    }
+    &:last-child {
+      padding-left: 10px;
+    }
+  }
+}

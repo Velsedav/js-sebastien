@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice JS</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.red.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="check-result.js" defer></script>
+  <script type="text/javascript" src="script.js" ></script>
+</head>
+<body>
+  <main class="container">
+    <div id="instructions">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Assigner aux variables <code>a</code> et <code>b</code> des valeurs numériques</li>
+        <li>Assigner à la variable <code>result</code> le résultat de l'addition de a et b</li>
+        <li class="display-when-done">Ensuite, assigner aux variables <code>a</code> et <code>b</code> des chaînes de caractères</li>
+      </ul>
+    </div>
+    <hr>
+    <div id="render">
+      <div id="operation">
+        <span id="outputA"></span>
+        <span class="display-when-done">+</span>
+        <span id="outputB"></span>
+
+      </div>
+      <span class="display-when-done">=</span>
+      <div id="output"></div>
+    </div>
+  </main>
+</body>
+</html>
