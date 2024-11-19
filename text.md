@@ -7,4 +7,3 @@ A quoi sert defer ? A ne pas executer le script avant le HTML/CSS etc.
 nomDeVariable.methodeAppliqueDessus(Comment)
 
 index=position de qqch
-JS compte à partir de 0 (astuce : ajouter +1)
