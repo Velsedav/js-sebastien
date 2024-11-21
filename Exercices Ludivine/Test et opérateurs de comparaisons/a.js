@@ -78,7 +78,7 @@ if(UserAge<12){
 }else if(UserAge >=12 && <=18){
     console.log('Teenager');
 }else if(UserAge>18){
-    console.log('Already dying');
+    console.log('Already dying')
 }
 
 
